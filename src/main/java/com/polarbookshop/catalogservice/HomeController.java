@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String getGreeting() {
-        return "도서 카탈로스 서비스에 오신것을 존나 환영합니다.";
+        return "도서 카탈로스 서비스에 오신것을 너무나 환영합니다.";
     }
 }
